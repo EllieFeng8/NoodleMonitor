@@ -1,0 +1,35 @@
+<RCC>
+    <qresource>
+        <file>NoodleMonitor.qmlproject</file>
+        <file>NoodleMonitor/Constants.qml</file>
+        <file>NoodleMonitor/EventListModel.qml</file>
+        <file>NoodleMonitor/EventListSimulator.qml</file>
+        <file>NoodleMonitor/qmldir</file>
+        <file>NoodleMonitorContent/App.qml</file>
+        <file>NoodleMonitorContent/assets/icons/noodles.svg</file>
+        <file>NoodleMonitorContent/assets/icons/reset.png</file>
+        <file>NoodleMonitorContent/components/ActionButton.qml</file>
+        <file>NoodleMonitorContent/components/FormFieldRow.qml</file>
+        <file>NoodleMonitorContent/components/Icon.qml</file>
+        <file>NoodleMonitorContent/components/MetricCard.qml</file>
+        <file>NoodleMonitorContent/components/PanelCard.qml</file>
+        <file>NoodleMonitorContent/components/PhotoPreview.qml</file>
+        <file>NoodleMonitorContent/components/ProcessLogItem.qml</file>
+        <file>NoodleMonitorContent/components/QualityCheckItem.qml</file>
+        <file>NoodleMonitorContent/components/SectionHeader.qml</file>
+        <file>NoodleMonitorContent/components/StatusBadge.qml</file>
+        <file>NoodleMonitorContent/components/TrendPlot.qml</file>
+        <file>NoodleMonitorContent/components/ValueInput.qml</file>
+        <file>NoodleMonitorContent/models/DashboardState.qml</file>
+        <file>NoodleMonitorContent/modules/DashboardHeader.qml</file>
+        <file>NoodleMonitorContent/modules/MixingPanel.qml</file>
+        <file>NoodleMonitorContent/modules/MonitoringMetrics.qml</file>
+        <file>NoodleMonitorContent/modules/MonitorPanel.qml</file>
+        <file>NoodleMonitorContent/modules/NoodleStatusPanel.qml</file>
+        <file>NoodleMonitorContent/modules/ProcessLogPanel.qml</file>
+        <file>NoodleMonitorContent/modules/ProductionControls.qml</file>
+        <file>NoodleMonitorContent/modules/TrendChartPanel.qml</file>
+        <file>NoodleMonitorContent/screens/DashboardContainer.qml</file>
+        <file>qtquickcontrols2.conf</file>
+    </qresource>
+</RCC>

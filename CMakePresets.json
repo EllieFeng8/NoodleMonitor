@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 1 },
+  "configurePresets": [
+    {
+      "name": "qt-6.12.0-debug",
+      "displayName": "Qt 6.12.0 Debug (MinGW)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/cmake-build-qt-6.12.0-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.12.0/mingw_64",
+        "Qt6_DIR": "C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6",
+        "CMAKE_CXX_COMPILER": "C:/Users/fengl/AppData/Local/Programs/CLion 2025.2.4/bin/mingw/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "C:/Qt/Tools/Ninja/ninja.exe"
+      },
+      "environment": {
+        "PATH": "C:/Qt/6.12.0/mingw_64/bin;C:/Users/fengl/AppData/Local/Programs/CLion 2025.2.4/bin/mingw/bin;$penv{PATH}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "qt-6.12.0-debug",
+      "configurePreset": "qt-6.12.0-debug",
+      "targets": ["NoodleMonitorApp"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Build outputs
+/build/
+/build-*/
+/cmake-build-*/
+CMakeUserPresets.json
+*.log
+
+# Local editor and agent settings
+/.idea/
+/.codex/
+*.user
+*.user.*
+*.qtds
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
